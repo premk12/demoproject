@@ -1,0 +1,14 @@
+1656592429177	geckodriver	INFO	Listening on 127.0.0.1:50636
+1656592432255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50637" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Prem\\AppData\\Local\\Temp\\rust_mozprofilekHjSnt"
+1656592433034	Marionette	INFO	Marionette enabled
+1656592433041	Marionette	INFO	Listening on port 50653
+WebDriver BiDi listening on ws://localhost:50637
+Read port: 50653
+1656592433269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Prem\\AppData\\Local\\Temp\\rust_mozprofilekHjSnt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50637/devtools/browser/c58eb174-4d3a-42bb-a858-9bd04754c16d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1656592439203	Marionette	INFO	Stopped listening on port 50653
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
